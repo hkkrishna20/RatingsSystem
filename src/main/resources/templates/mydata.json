@@ -1,0 +1,116 @@
+[
+  {
+    "productid":1,
+    "productname": "Pen",
+    "price": 125,
+    "description": "Lorem ipsum dollar.Lorem ipsum dollar. Lorem ipsum dollar.Lorem ipsum dollar.Lorem ipsum dollar.Lorem ipsum dollar.",
+    "imagepath": "./images/pen.jpg",
+    "category": "Stationary"
+  },
+
+  {
+    "productid":11,
+    "productname": "Chandamama",
+    "price": 75,
+    "description": "Lorem ipsum dollar.Lorem ipsum dollar. Lorem ipsum dollar.Lorem ipsum dollar.Lorem ipsum dollar.Lorem ipsum dollar.",
+    "imagepath": "./images/chandamama.jpg",
+    "category": "Books"
+  },
+
+  {
+    "productid":2,
+    "productname": "Bangles",
+    "price": 599,
+    "description": "Lorem ipsum dollar.Lorem ipsum dollar. Lorem ipsum dollar.Lorem ipsum dollar.Lorem ipsum dollar.Lorem ipsum dollar.",
+    "imagepath": "./images/bangles.jpg",
+    "category": "Jewelry"
+  },
+  {
+    "productid":22,
+    "productname": "Harry-Potter",
+    "price": 255,
+    "description": "Lorem ipsum dollar.Lorem ipsum dollar. Lorem ipsum dollar.Lorem ipsum dollar.Lorem ipsum dollar.Lorem ipsum dollar.",
+    "imagepath": "./images/harry-potter.jpg",
+    "category": "Books"
+  },
+  {
+    "productid":3,
+    "productname": "Laptop",
+    "price": 25000,
+    "description": "Lorem ipsum dollar.Lorem ipsum dollar. Lorem ipsum dollar.Lorem ipsum dollar.Lorem ipsum dollar.Lorem ipsum dollar.",
+    "imagepath": "./images/laptop.jpg",
+    "category": "Electronics"
+  },
+  {
+    "productid":33,
+    "productname": "T-Shirt",
+    "price": 200,
+    "description": "Lorem ipsum dollar.Lorem ipsum dollar. Lorem ipsum dollar.Lorem ipsum dollar.Lorem ipsum dollar.Lorem ipsum dollar.",
+    "imagepath": "./images/tshirt.jpg",
+    "category": "Clothing"
+  },
+
+  {
+    "productid":4,
+    "productname": "Earrings",
+    "price": 379,
+    "description": "Lorem ipsum dollar.Lorem ipsum dollar. Lorem ipsum dollar.Lorem ipsum dollar.Lorem ipsum dollar.Lorem ipsum dollar.",
+    "imagepath": "./images/earrings.jpg",
+    "category": "Jewelry"
+  },
+  
+    {
+      "productid":44,
+      "productname": "Padmavathi-CD",
+      "price": 780,
+      "description": "Lorem ipsum dollar.Lorem ipsum dollar. Lorem ipsum dollar.Lorem ipsum dollar.Lorem ipsum dollar.Lorem ipsum dollar.",
+      "imagepath": "./images/padmavathi-cd.jpg",
+      "category": "Electronics"
+    },
+    
+      {
+        "productid":5,
+        "productname": "Paint Brush",
+        "price": 55,
+        "description": "Lorem ipsum dollar.Lorem ipsum dollar. Lorem ipsum dollar.Lorem ipsum dollar.Lorem ipsum dollar.Lorem ipsum dollar.",
+        "imagepath": "./images/paint-brush.jpg",
+        "category": "Stationary"
+      },
+      
+        {
+          "productid":55,
+          "productname": "Potato",
+          "price": 25,
+          "description": "Lorem ipsum dollar.Lorem ipsum dollar. Lorem ipsum dollar.Lorem ipsum dollar.Lorem ipsum dollar.Lorem ipsum dollar.",
+          "imagepath": "./images/potato.jpg",
+          "category": "Grocery"
+        },
+        
+          {
+            "productid":6,
+            "productname": "Tomato",
+            "price": 10,
+            "description": "Lorem ipsum dollar.Lorem ipsum dollar. Lorem ipsum dollar.Lorem ipsum dollar.Lorem ipsum dollar.Lorem ipsum dollar.",
+            "imagepath": "./images/tomato.jpg",
+            "category": "Grocery"
+          },
+        
+          {
+            "productid":6,
+            "productname": "Tinkle",
+            "price": 105,
+            "description": "Lorem ipsum dollar.Lorem ipsum dollar. Lorem ipsum dollar.Lorem ipsum dollar.Lorem ipsum dollar.Lorem ipsum dollar.",
+            "imagepath": "./images/tinkle.jpg",
+            "category": "Books"
+          },
+          
+            {
+              "productid":7,
+              "productname": "Blue Dial Watch",
+              "price": 955,
+              "description": "Lorem ipsum dollar.Lorem ipsum dollar. Lorem ipsum dollar.Lorem ipsum dollar.Lorem ipsum dollar.Lorem ipsum dollar.",
+              "imagepath": "./images/watch.jpg",
+              "category": "Jewelry"
+            }
+
+]

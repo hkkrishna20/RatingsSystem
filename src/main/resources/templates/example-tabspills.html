@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles/css/custom.css">
+
+  <title>Tabs Pills</title>
+</head>
+
+<body>
+
+  <div class="container m-5">
+    <!-- Nav tabs -->
+    <ul class="nav nav-pills" id="myTab">
+      <li class="nav-item">
+        <a class="nav-link active" id="home-tab" data-toggle="pills" href="#home1">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="profile-tab" data-toggle="pill" href="#profile1">Profile</a>
+      </li>
+    </ul>
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+      <div class="tab-pane active" id="home1">My home content</div>
+      <div class="tab-pane" id="profile1">My profile content</div>
+    </div>
+
+  </div>
+
+  <div class="container">
+    <ul class="nav nav-tabs" id="myTab2" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
+      </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+      <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sodales porttitor varius. Aenean condimentum auctor lectus
+        eu porta. Sed lacinia in risus ac finibus. Integer ante sapien, finibus blandit pulvinar vitae, viverra et turpis.
+        Ut imperdiet ligula accumsan sapien iaculis tincidunt. Proin felis turpis, rhoncus et nibh quis, elementum pharetra
+        mauris. Ut risus sem, cursus sed nunc vel, malesuada ullamcorper eros. Praesent molestie orci sed ex condimentum
+        vehicula. Cras porta semper dui, at tempor risus placerat sed. Proin tincidunt sapien eu mauris elementum, ut luctus
+        tellus dapibus. Aenean neque turpis, congue et dolor condimentum, tincidunt ultricies purus. Vivamus nec accumsan
+        ante. Praesent in fermentum lorem, vel blandit massa. Phasellus massa quam, vehicula sit amet mattis ut, volutpat
+        vel lacus. Integer blandit purus sit amet tristique porttitor. Sed dapibus auctor ligula, et vulputate sem blandit
+        ut. Nullam tincidunt turpis nec tempor pulvinar. Mauris eget leo dictum, lobortis nisl et, scelerisque sapien. Nulla
+        varius non metus tincidunt molestie. Suspendisse ullamcorper et nulla vel posuere. Mauris molestie mauris non nisl
+        pharetra, eu pulvinar ante ultrices. Donec porttitor, turpis vel gravida commodo, ex quam pharetra urna, tempus imperdiet
+        nulla lorem sit amet lacus. Vivamus a imperdiet elit, eget lacinia mi. Sed venenatis fringilla pellentesque. Nulla
+        convallis pellentesque facilisis.
+
+      </div>
+      <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+        <div class="card text-center">
+          <div class="card-header">
+            Featured
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Special title treatment</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+          <div class="card-footer text-muted">
+            2 days ago
+          </div>
+        </div>
+
+      </div>
+      <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Special title treatment</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Special title treatment</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+  </div>
+
+  <script src="node_modules/jquery/dist/jquery.slim.js"></script>
+ <!-- <script src="node_modules/popper.js/dist/popper.min.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+
+  <script>
+    $('#myTab a').on('click', function (e) {
+      e.preventDefault()
+      //alert(this);
+      $(this).tab('show');
+    })
+  </script>
+</body>
+
+</html>

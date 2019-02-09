@@ -1,0 +1,21 @@
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+@import "node_modules/bootstrap/scss/bootstrap";
+$body-bg: rgb(195, 241, 255);
+$body-color: rgb(5, 0, 34);
+mark {
+    background-color: yellow;
+}
+$theme-colors: (
+  "custom-color": #900
+);
+
+// Use functions
+.custom-element {
+    color: gray("100");
+    background-color: color("blue");
+  }
+
+
+

@@ -1,0 +1,34 @@
+[
+  {
+    "productid": 1,
+    "productname": "Pen",
+    "price": 125,
+    "description": "Lorem ipsum dollar.Lorem ipsum dollar.",
+    "imagepath": "./images/pen.jpg",
+    "category": "Stationary"
+  },
+  {
+    "productid": 2,
+    "productname": "Bangles",
+    "price": 599,
+    "description": "Lorem ipsum dollar.Lorem ipsum dollar.",
+    "imagepath": "./images/bangles.jpg",
+    "category": "Jewelry"
+  },
+  {
+    "productid": 33,
+    "productname": "T-Shirt",
+    "price": 200,
+    "description": "Lorem ipsum dollar.Lorem ipsum dollar.",
+    "imagepath": "./images/tshirt.jpg",
+    "category": "Clothing"
+  },
+  {
+    "productid": 7,
+    "productname": "Blue Dial Watch",
+    "price": 955,
+    "description": "Lorem ipsum dollar.Lorem ipsum dollar.",
+    "imagepath": "./images/watch.jpg",
+    "category": "Jewelry"
+  }
+]
