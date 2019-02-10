@@ -1,0 +1,95 @@
+{
+   "@noNamespaceSchemaLocation": "http://www.google.com/shopping/reviews/schema/product/2.2/product_reviews.xsd",
+   "version": "2.2",
+   "aggregator": {
+      "name": "Sample Reviews Aggregator (if applicable)"
+   },
+   "publisher": {
+      "name": "Sample Retailer",
+      "favicon": "http://www.example.com/favicon.png"
+   },
+   "reviews": [
+      {
+         "review_id": "14295",
+         "reviewer": {
+            "name": {
+               "@is_anonymous": "true",
+               "#text": "Anonymous"
+            },
+            "reviewer_id": "509769"
+         },
+         "review_timestamp": "2014-04-21T07:07:07Z",
+         "title": "Excellent",
+         "content": "Got it for a friend and he loved it.",
+         "pros": [
+            "Sleek design",
+            "Protects the tablet well"
+         ],
+         "cons": {
+            "con": "Pricey"
+         },
+         "review_url": "http://www.example.com/review_14295.html",
+         "reviewer_images": [
+            {
+               "url": "https://example.com/test.jpg"
+            },
+            {
+               "url": "https://example.com/test.gif"
+            }
+         ],
+         "ratings": {
+            "overall": {
+               "@min": "1",
+               "@max": "5",
+               "#text": "4.4"
+            }
+         },
+         "products": {
+            "product": {
+               "product_ids": {
+                  "gtins": {
+                     "gtin": "541710238425"
+                  },
+                  "mpns": {
+                     "mpn": "60101-10000"
+                  },
+                  "skus": {
+                     "sku": "6206"
+                  },
+                  "brands": {
+                     "brand": "Acme"
+                  }
+               },
+               "product_name": "Tablet Sleeve",
+               "product_url": "http://www.example.com/product_6206.html"
+            }
+         },
+         "is_spam": "false",
+         "collection_method": "post_fulfillment",
+         "transaction_id": "fulfillment_transaction_11198373"
+      },
+      {
+         "reviewer": {
+            "name": "Jane"
+         },
+         "review_timestamp": "2014-04-21T07:14:21Z",
+         "content": "I was a little skeptical at first, but it grew on me.",
+         "review_url": "http://www.example.com/review_59684.html",
+         "ratings": {
+            "overall": {
+               "@min": "1",
+               "@max": "5",
+               "#text": "4.3"
+            }
+         },
+         "products": {
+            "product": {
+               "product_url": "http://www.example.com/product_6207.html"
+            }
+         }
+      }
+   ],
+   "deleted_reviews": {
+      "review_id": "10438"
+   }
+}
